@@ -6,6 +6,7 @@ function App() {
 	const [allToDos, setAllToDos] = useState([]);
 	return (
 		<>
+			<h1>Elisa's ToDo's</h1>
 			<ToDoForm setAllToDos={setAllToDos} />
 			<ToDoList items={allToDos} setAllToDos={setAllToDos} />
 		</>
